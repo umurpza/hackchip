@@ -9,7 +9,6 @@ public class PointsCounter : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		score = 10;
 		scoreText.text = score + " KB";
 	}
 	

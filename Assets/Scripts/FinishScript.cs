@@ -7,7 +7,8 @@ public class FinishScript : MonoBehaviour {
 	public PointsCounter pointsCounter;
 
 	public void OnTriggerEnter2D(Collider2D collider) {
-		pointsCounter.UpdatePoints(10);
+		if (collider.CompareTag("Bug"))
+			pointsCounter.UpdatePoints(10);
 	}
 
 }

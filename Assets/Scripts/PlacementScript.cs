@@ -44,7 +44,9 @@ public class PlacementScript : MonoBehaviour {
 	}
 
 	void OnTriggerExit2D(Collider2D collider) {
-		collider.gameObject.transform.GetChild(0).gameObject.SetActive(false);
+		if (collider.gameObject.transform.childCount > 0)
+			collider.gameObject.transform.GetChild(0).gameObject.SetActive(false);
+
 		pinPointCollider = null;
 	}
 }
