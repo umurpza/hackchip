@@ -1,0 +1,55 @@
+Mono path[0] = 'C:/Users/COMSAA/Documents/hackchip/hc'_Data/Managed'
+Mono path[1] = 'C:/Users/COMSAA/Documents/hackchip/hc'_Data/Mono'
+Mono config path = 'C:/Users/COMSAA/Documents/hackchip/hc'_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/COMSAA/Documents/hackchip/hc'_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55395
+Multi-casting "[IP] 192.168.254.1 [Port] 55395 [Flags] 3 [Guid] 3259096052 [EditorId] 3333728781 [Version] 1048832 [Id] WindowsPlayer(IOWACWL-JHZL5R1) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [192.168.254.1:55395]...
+PlayerConnection accepted from [192.168.254.1] handle:0x1d8
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56052
+PlayerConnection already initialized - listening to [192.168.254.1:55395]
+Initialize engine version: 5.2.0f3 (e7947df39b5c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x126)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\COMSAA\Documents\hackchip\hc'_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\COMSAA\Documents\hackchip\hc'_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\COMSAA\Documents\hackchip\hc'_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\COMSAA\Documents\hackchip\hc'_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\COMSAA\Documents\hackchip\hc'_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\COMSAA\Documents\hackchip\hc'_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\COMSAA\Documents\hackchip\hc'_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\COMSAA\Documents\hackchip\hc'_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\COMSAA\Documents\hackchip\hc'_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.061 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\COMSAA\Documents\hackchip\hc'_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 7504 -> priority: 1 
+Play Entered
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MenuSelectionScript:OnMouseDown() (at C:\Users\COMSAA\Documents\hackchip\Assets\Scripts\MenuSelectionScript.cs:25)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.HitInfo:SendMessage(String) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:17)
+UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:161)
+UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32) (at C:\buildslave\unity\build\Runtime\Export\MouseEvents.cs:141)
+ 
+(Filename: C:/Users/COMSAA/Documents/hackchip/Assets/Scripts/MenuSelectionScript.cs Line: 25)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.424886 ms
+System memory in use before: 18.9 MB.
+System memory in use after: 18.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 431.
+Total: 0.223321 ms (FindLiveObjects: 0.029967 ms CreateObjectMapping: 0.018062 ms MarkObjects: 0.158459 ms  DeleteObjects: 0.014368 ms)
+
+Waiting for finish
