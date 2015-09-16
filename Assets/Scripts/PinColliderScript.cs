@@ -36,7 +36,7 @@ public class PinColliderScript : MonoBehaviour {
 	
 	void OnTriggerEnter2D(Collider2D collider) {
 		Debug.Log(collider.gameObject.transform.childCount);
-		if (collider.gameObject.CompareTag("OpenPin")) {
+		if (collider.gameObject.tag == "OpenPin") {
 			Transform parent = collider.gameObject.transform;
 			foreach (Transform child in parent) {
 				Debug.Log(child.name);
@@ -47,6 +47,9 @@ public class PinColliderScript : MonoBehaviour {
 	}
 	
 	void OnTriggerExit2D(Collider2D collider) {
+		if (pinPointCollider == null)
+			return;
+
 		if (collider.gameObject.transform.childCount > 0) {
 			foreach (Transform child in collider.gameObject.transform) {
 				child.gameObject.SetActive(false);
