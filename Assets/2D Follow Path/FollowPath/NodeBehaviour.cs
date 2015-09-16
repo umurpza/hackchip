@@ -14,5 +14,17 @@ public class NodeBehaviour : MonoBehaviour {
 			path.nodesBehaviour.Add(this);
 		}
 	}
+
+	void Update() {
+		switch (node) {
+		case 6:
+			System.Console.WriteLine("finish");
+
+			break;
+		default:
+			break;
+		}
+
+	}
 }
 
